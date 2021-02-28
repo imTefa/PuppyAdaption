@@ -105,7 +105,7 @@ fun generateCats(): List<Animal> {
 data class Animal(
     val name: String,
     val imgRes: Int,
-    val description: String = "",
+    val description: String = "To help puppies grow up happy and healthy, it’s important to be aware of what they need at each phase in their development. Here is a quick summary of the stages of puppy development, starting at birth up to two years old.",
     val age: String,
     val type: Type = Type.PUPPY
 )
